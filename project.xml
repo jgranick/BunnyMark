@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	
+	<meta title="BunnyMark" package="com.joshuagranick.bunnymark" version="1.0.0" company="Joshua Granick" />
+	<app main="Main" path="Export" file="BunnyMark" />
+	
+	<window width="800" height="600" />
+	
+	<source path="Source" />
+	
+	<set name="stats" if="html5" />
+	<haxedef name="stats" if="html5" />
+	<set name="webgl" if="html5" />
+	<haxedef name="webgl" if="html5" />
+	
+	<haxelib name="openfl" />
+	
+	<assets path="Assets/images" rename="images" />
+	<template path="Assets/templates" />
+	
+	<icon path="Assets/openfl.svg" />
+	
+</project>
